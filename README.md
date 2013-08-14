@@ -27,13 +27,13 @@ vh_sentiment.get('[text you would like analyzed]', function(err, data, status) {
 
 ```javascript
 {
-    text: 'Hello! I love PowerPost!!',
+    text: 'Hello! I love this product!!',
     mood: 'positive',
     prob: 0.9372610796240683,
     raw: {
         status: 200,
         error: null,
-        text: '\'Hello! I love PowerPost!!\'',
+        text: '\'Hello! I love this product!!\'',
         mood: '\'positive\'',
         prob: '0.93726107962406835'
     }
