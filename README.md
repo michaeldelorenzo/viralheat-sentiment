@@ -14,7 +14,7 @@ var vh_sentiment = require('viralheat-sentiment')('[Your API Key Here]');
 ###Make a sentiment request
 
 ```javascript
-vh_sentiment.get('[text you would like analyzed]', function(err, data, status) {
+vh_sentiment.get('[text (360 characters or less) that you want to analyze]', function(err, data, status) {
 	if(err) {
 		// Error
 	} else {
